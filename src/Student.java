@@ -1,3 +1,4 @@
+package main;
 import java.util.Date;
 
 /**
@@ -13,13 +14,13 @@ public class Student implements Comparable {
 	/**
 	 * student id
 	 */
-	private int id;
+	private int id=96;
 
 	/**
 	 * student name and surname separated by the whitespace for example:
 	 * fullName = "David Luis";
 	 */
-	private String fullName;
+	private String fullName="raghavender reddy";
 
 	/**
 	 * student date of birth in "yyyy-MM-dd" format
@@ -29,7 +30,7 @@ public class Student implements Comparable {
 	/**
 	 * student average mark
 	 */
-	private double avgMark;
+	private double avgMark=82.5;
 
 	public Student(int id, String fullName, Date birthDate, double avgMark) {
 		this.id = id;
